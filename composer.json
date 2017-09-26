@@ -1,13 +1,20 @@
 {
     "name": "bymega/timezones",
+    "type": "library",
     "description": "example package to show time",
+    "keywords": ["laravel", "timezones", "time"],
+    "homepage": "https://github.com/tahsingungordu/timezones",
     "license": "MIT",
     "authors": [
         {
             "name": "Tahsin Gungordu",
-            "email": "tahsingungordu@gmail.com"
+            "email": "tahsingungordu@gmail.com",
+            "homepage": "http://bymega.com",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": ">=5.5.9"
+    }
 }
