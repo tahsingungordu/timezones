@@ -6,8 +6,11 @@ use Carbon\Carbon;
 
 class TimezonesController extends Controller
 {
-	public function index($timezone)
+	public function index($timezone = NULL)
 	{
-		echo Carbon::now($timezone)->toDateTimeString();
+		$time = ($timezone)
+			? Carbon::now(str_replace('-', '/', $timezone))
+			: Carbon::now();
+		echo $time->toDateTimeString();
 	}
 }
