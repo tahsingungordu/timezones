@@ -13,5 +13,10 @@ Register the `provider` in `config/app.php`.
 Bymega\Timezones\TimezonesServiceProvider::class,
 ~~~
 
+Publish files with:
+~~~
+php artisan vendor:publish --tag=timezones --force
+~~~
+
 # Using
 Example URLs /timezones or /timezones/Europe-London.
