@@ -1,7 +1,7 @@
 {
     "name": "bymega/timezones",
     "type": "library",
-    "description": "example package to show time",
+    "description": "Example package to show time for Laravel 5",
     "keywords": ["laravel", "timezones", "time"],
     "homepage": "https://github.com/tahsingungordu/timezones",
     "license": "MIT",
@@ -13,8 +13,13 @@
             "role": "Developer"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=5.5.9"
-    }
+    },
+    "autoload": {
+        "psr-4": {
+            "Bymega\\Timezones\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
 }
