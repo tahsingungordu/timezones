@@ -20,6 +20,5 @@
         "psr-4": {
             "Bymega\\Timezones\\": "src/"
         }
-    },
-    "minimum-stability": "stable"
+    }
 }
