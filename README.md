@@ -11,6 +11,7 @@ composer require bymega/timezones
 Register the `provider` in `config/app.php`.
 ~~~
 Bymega\Timezones\TimezonesServiceProvider::class,
+~~~
 
 # Using
 Example URLs /timezones or /timezones/Europe-London.
