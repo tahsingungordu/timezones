@@ -2,6 +2,8 @@
 
 Shows current time in various timezones. The example is a simple work.
 
+- [Timezones on Packagist](https://packagist.org/packages/bymega/timezones)
+
 # Installation
 Install with composer
 ~~~
