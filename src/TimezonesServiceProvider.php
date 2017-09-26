@@ -13,7 +13,7 @@ class TimezonesServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+	    $this->loadRoutesFrom(__DIR__.'/routes.php');
     }
 
     /**
@@ -23,6 +23,6 @@ class TimezonesServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+	    $this->app->make('Bymega\Timezones\TimezonesController');
     }
 }
