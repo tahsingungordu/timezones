@@ -15,6 +15,13 @@ class TimezonesServiceProvider extends ServiceProvider
     {
 	    $this->loadRoutesFrom(__DIR__.'/routes.php');
 	    $this->loadViewsFrom(__DIR__.'/views', 'timezones');
+
+	    /*
+	     * Publishing the Views
+	     */
+	    $this->publishes([
+		    __DIR__.'/views' => resource_path('views/vendor/timezones'),
+	    ], 'timezones');
     }
 
     /**
