@@ -1,0 +1,13 @@
+{
+    "name": "bymega/timezones",
+    "description": "example package to show time",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tahsin Gungordu",
+            "email": "tahsingungordu@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
